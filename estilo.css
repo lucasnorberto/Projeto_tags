@@ -1,0 +1,36 @@
+body{
+    background-color: rgba(9, 248, 21, 0.5);
+}
+
+
+header{
+    font-family: 'Averia Libre', cursive;
+    background: white;
+    border-radius: 14px;
+    padding: 4px;
+    width: 450px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+h2{
+    font-family: 'Amiko', sans-serif; 
+    padding: 15px;
+}
+
+p{
+    font-family: 'Amiko', sans-serif; 
+    padding: 15px;
+    margin-top: -30px;
+
+}
+
+
+
+footer{
+    font-style: italic;
+    font-size: 14px;
+    text-align: center;
+
+
+}
