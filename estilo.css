@@ -1,5 +1,6 @@
 body{
-    background-color: rgba(9, 248, 21, 0.5);
+       background-color: rgba(83, 83, 87, 0.377);
+        
 }
 
 
@@ -24,6 +25,13 @@ p{
     margin-top: -30px;
 
 }
+table{
+    font-family: 'Poppins', sans-serif;
+    background: white;
+    border-radius: 14px;
+    margin: auto;
+
+}
 
 
 
@@ -31,6 +39,7 @@ footer{
     font-style: italic;
     font-size: 14px;
     text-align: center;
+    margin-top: 50px;
 
 
 }
