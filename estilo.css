@@ -14,8 +14,13 @@ header{
     text-align: center;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
+table{
+margin: auto;
+text-align: center;       
+
+}
 table#tabelatag{
-    margin-left: 15px;
+    margin-left: center;
     border-spacing: 8px;
     padding: 10px;
    
@@ -86,13 +91,15 @@ tr.tagfortex6{
 
 h2{
     font-family: 'Amiko', sans-serif; 
-    padding: 15px;
+    padding: 5px;
+    margin: 2px;
+    
 }
 
 p{
     font-family: 'Amiko', sans-serif; 
-    padding: 15px;
-    margin-top: -30px;
+    padding: 1px;
+    margin: 2px;
 }
 table{
     font-family: 'Poppins', sans-serif;
