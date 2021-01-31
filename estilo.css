@@ -14,9 +14,22 @@ header{
     text-align: center;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
+table#tabelatag{
+    margin-left: 15px;
+    
+
+}
+table#tabelatag td{
+    margin-left: 15px;
+    padding: 7px;
+    
+
+}
 td{
     border-radius: 14px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border-spacing: 5px;
+    
 
 }
 
