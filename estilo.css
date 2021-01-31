@@ -17,32 +17,24 @@ header{
 td{
     border-radius: 14px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+
 }
 
 tr.tagtopo{
     font-family: 'Averia Libre', cursive;
     background: rgba(93, 245, 33, 0.637);
-    padding: 4px;
-    width: 50px;
-    margin: auto;
     text-align: center;
     
 }
 tr.tagcorpo{
     font-family: 'Averia Libre', cursive;
     background: rgba(245, 111, 33, 0.637);
-    padding: 4px;
-    width: 50px;
-    margin: auto;
     text-align: center;
 
 }
 tr.tagfortex{
     font-family: 'Averia Libre', cursive;
     background: rgba(178, 33, 245, 0.637);
-    padding: 4px;
-    width: 50px;
-    margin: auto;
     text-align: center;
 
 }
@@ -50,48 +42,32 @@ tr.tagfortex{
 tr.tagfortex2{
     font-family: 'Averia Libre', cursive;
     background: rgba(37, 8, 90, 0.637);
-    padding: 4px;
-    width: 50px;
-    margin: auto;
     text-align: center;
    
 }
 tr.tagfortex3{
     font-family: 'Averia Libre', cursive;
     background: rgba(114, 5, 78, 0.637);
-    padding: 4px;
-    width: 50px;
-    margin: auto;
     text-align: center;
    
 }
 tr.tagfortex4{
     font-family: 'Averia Libre', cursive;
     background: rgba(35, 170, 233, 0.637);
-    padding: 4px;
-    width: 50px;
-    margin: auto;
     text-align: center;
    
 }
 tr.tagfortex5{
     font-family: 'Averia Libre', cursive;
     background: rgba(17, 65, 17, 0.637);
-    padding: 4px;
-    width: 50px;
-    margin: auto;
     text-align: center;
    
 }
 tr.tagfortex6{
     font-family: 'Averia Libre', cursive;
     background: rgba(235, 109, 5, 0.637);
-    padding: 4px;
-    width: 50px;
-    margin: auto;
     text-align: center;
-   
-}
+   }
 
 h2{
     font-family: 'Amiko', sans-serif; 
@@ -102,7 +78,6 @@ p{
     font-family: 'Amiko', sans-serif; 
     padding: 15px;
     margin-top: -30px;
-
 }
 table{
     font-family: 'Poppins', sans-serif;
