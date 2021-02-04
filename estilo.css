@@ -16,13 +16,12 @@ header{
 }
 
 .myButton {
-	background-color:#44c767;
+	background-color:#f8e325;
 	border-radius:14px;
-	border:1px solid #18ab29;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
+	color:#000000;
+	font-family: 'Amiko', sans-serif; 
 	font-size:15px;
 	padding: 10px ;
 	text-decoration:none;
@@ -32,7 +31,7 @@ header{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 .myButton:hover {
-	background-color:#5cbf2a;
+	background-color:#bf8b2a;
 }
 .myButton:active {
 	position:relative;
@@ -47,7 +46,7 @@ header{
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Arial;
+	font-family: 'Amiko', sans-serif;
 	font-size:15px;
 	padding: 10px ;
 	text-decoration:none;
@@ -71,7 +70,7 @@ header{
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Arial;
+	font-family: 'Amiko', sans-serif;
 	font-size:15px;
 	padding: 10px ;
 	text-decoration:none;
@@ -95,7 +94,7 @@ header{
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Arial;
+	font-family: 'Amiko', sans-serif;
 	font-size:15px;
 	padding: 10px ;
 	text-decoration:none;
@@ -119,7 +118,7 @@ header{
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Arial;
+	font-family: 'Amiko', sans-serif;
 	font-size:15px;
 	padding: 10px ;
 	text-decoration:none;
@@ -143,7 +142,7 @@ header{
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Arial;
+	font-family: 'Amiko', sans-serif;
 	font-size:15px;
 	padding: 10px ;
 	text-decoration:none;
@@ -167,7 +166,7 @@ header{
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Arial;
+	font-family: 'Amiko', sans-serif;
 	font-size:15px;
 	padding: 10px ;
 	text-decoration:none;
@@ -191,7 +190,7 @@ header{
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Arial;
+	font-family: 'Amiko', sans-serif;
 	font-size:15px;
 	padding: 10px ;
 	text-decoration:none;
