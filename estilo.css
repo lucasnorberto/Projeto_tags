@@ -1,5 +1,7 @@
 body{
-       background-image: url(texturablue.jpg);
+	   background-color: #2c2e36;
+	   margin: 30px;
+	   margin-right: 30px;
         
 }
 
@@ -15,6 +17,8 @@ p{
     padding: 1px;
     margin: 2px;
     color: white;
+}
+
 }
 h1#alert{
     text-align: center;
@@ -58,9 +62,9 @@ header{
 
 
 .myButton1 {
-	background-color:#44c767;
+	background-color:#4472c7;
 	border-radius:14px;
-	border:1px solid #18ab29;
+	border:1px solid #080808;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -68,13 +72,12 @@ header{
 	font-size:15px;
 	padding: 10px ;
 	text-decoration:none;
-    text-shadow:0px 1px 0px #2f6627;
     border-spacing: 5px;
     margin-top: 5px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 .myButton1:hover {
-	background-color:#5cbf2a;
+	background-color:#2aa9bf;
 }
 .myButton1:active {
 	position:relative;
@@ -82,9 +85,9 @@ header{
 }
 
 .myButton2 {
-	background-color:#44c767;
+	background-color:#ad44c7;
 	border-radius:14px;
-	border:1px solid #18ab29;
+	border:1px solid #080808;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -92,13 +95,12 @@ header{
 	font-size:15px;
 	padding: 10px ;
 	text-decoration:none;
-    text-shadow:0px 1px 0px #2f6627;
     border-spacing: 5px;
     margin-top: 5px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 .myButton2:hover {
-	background-color:#5cbf2a;
+	background-color:#bf2a92;
 }
 .myButton2:active {
 	position:relative;
@@ -106,9 +108,9 @@ header{
 }
 
 .myButton3 {
-	background-color:#44c767;
+	background-color:#c75844;
 	border-radius:14px;
-	border:1px solid #18ab29;
+	border:1px solid #080808;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -116,13 +118,12 @@ header{
 	font-size:15px;
 	padding: 10px ;
 	text-decoration:none;
-    text-shadow:0px 1px 0px #2f6627;
     border-spacing: 5px;
     margin-top: 5px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 .myButton3:hover {
-	background-color:#5cbf2a;
+	background-color:#bf2a2a;
 }
 .myButton3:active {
 	position:relative;
@@ -130,9 +131,9 @@ header{
 }
 
 .myButton4 {
-	background-color:#44c767;
+	background-color:#6b44c7;
 	border-radius:14px;
-	border:1px solid #18ab29;
+	border:1px solid #080808;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -140,13 +141,12 @@ header{
 	font-size:15px;
 	padding: 10px ;
 	text-decoration:none;
-    text-shadow:0px 1px 0px #2f6627;
     border-spacing: 5px;
     margin-top: 5px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 .myButton4:hover {
-	background-color:#5cbf2a;
+	background-color:#bf2a4a;
 }
 .myButton4:active {
 	position:relative;
@@ -154,9 +154,9 @@ header{
 }
 
 .myButton5 {
-	background-color:#44c767;
+	background-color:#5aa306;
 	border-radius:14px;
-	border:1px solid #18ab29;
+	border:1px solid #080808;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -164,13 +164,12 @@ header{
 	font-size:15px;
 	padding: 10px ;
 	text-decoration:none;
-    text-shadow:0px 1px 0px #2f6627;
     border-spacing: 5px;
     margin-top: 5px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 .myButton5:hover {
-	background-color:#5cbf2a;
+	background-color:#5af30d;
 }
 .myButton5:active {
 	position:relative;
@@ -178,9 +177,9 @@ header{
 }
 
 .myButton6 {
-	background-color:#44c767;
+	background-color:#b10e0e;
 	border-radius:14px;
-	border:1px solid #18ab29;
+	border:1px solid #080808;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -188,13 +187,12 @@ header{
 	font-size:15px;
 	padding: 10px ;
 	text-decoration:none;
-    text-shadow:0px 1px 0px #2f6627;
     border-spacing: 5px;
     margin-top: 5px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 .myButton6:hover {
-	background-color:#5cbf2a;
+	background-color:#f30606;
 }
 .myButton6:active {
 	position:relative;
@@ -202,9 +200,9 @@ header{
 }
 
 .myButton7 {
-	background-color:#44c767;
+	background-color:#020474;
 	border-radius:14px;
-	border:1px solid #18ab29;
+	border:1px solid #080808;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -212,13 +210,12 @@ header{
 	font-size:15px;
 	padding: 10px ;
 	text-decoration:none;
-    text-shadow:0px 1px 0px #2f6627;
     border-spacing: 5px;
     margin-top: 5px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 .myButton7:hover {
-	background-color:#5cbf2a;
+	background-color:#1c04f3;
 }
 .myButton7:active {
 	position:relative;
