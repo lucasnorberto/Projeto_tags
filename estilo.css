@@ -1,6 +1,20 @@
 body{
-       background-image: url(/_imagens/texturablue.jpg);
+       background-image: url(texturablue.jpg);
         
+}
+
+h2{
+    font-family: 'Amiko', sans-serif; 
+    padding: 5px;
+    margin: 2px;
+    color: white;
+}
+
+p{
+    font-family: 'Amiko', sans-serif; 
+    padding: 1px;
+    margin: 2px;
+    color: white;
 }
 h1#alert{
     text-align: center;
@@ -25,7 +39,7 @@ header{
 	display:inline-block;
 	cursor:pointer;
 	color:#000000;
-	font-family: 'Amiko', sans-serif; 
+	font-family: 'Poppins', sans-serif; 
 	font-size:15px;
 	padding: 10px ;
 	text-decoration:none;
@@ -212,24 +226,6 @@ header{
 }
 
 
-h2{
-    font-family: 'Amiko', sans-serif; 
-    padding: 5px;
-    margin: 2px;
-    
-}
-
-p{
-    font-family: 'Amiko', sans-serif; 
-    padding: 1px;
-    margin: 2px;
-}
-table{
-    font-family: 'Poppins', sans-serif;
-    margin: auto;
-    width: 750px;
-    padding: 400x;
-    }
 
 footer{
     font-style: italic;
