@@ -14,25 +14,6 @@ header{
     text-align: center;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
-table{
-margin: auto;
-text-align: center;       
-
-}
-table#tabelatag{
-    margin-left: center;
-    border-spacing: 8px;
-    padding: 10px;
-   
-
-}
-table#tabelatag td{
-    margin-left: 15px;
-    padding: 8px;
-    
-
-}
-
 
 .myButton {
 	background-color:#44c767;
@@ -48,6 +29,7 @@ table#tabelatag td{
     text-shadow:0px 1px 0px #2f6627;
     border-spacing: 5px;
     margin-top: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 .myButton:hover {
 	background-color:#5cbf2a;
@@ -57,62 +39,175 @@ table#tabelatag td{
 	top:1px;
 }
 
-td{
-    border-radius: 14px;
+
+.myButton1 {
+	background-color:#44c767;
+	border-radius:14px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding: 10px ;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+    border-spacing: 5px;
+    margin-top: 5px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-    
-    
-
+}
+.myButton1:hover {
+	background-color:#5cbf2a;
+}
+.myButton1:active {
+	position:relative;
+	top:1px;
 }
 
-tr.tagtopo{
-    font-family: 'Averia Libre', cursive;
-    background: rgba(93, 245, 33, 0.637);
-    text-align: center;
-    
+.myButton2 {
+	background-color:#44c767;
+	border-radius:14px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding: 10px ;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+    border-spacing: 5px;
+    margin-top: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
-tr.tagcorpo{
-    font-family: 'Averia Libre', cursive;
-    background: rgba(245, 111, 33, 0.637);
-    text-align: center;
+.myButton2:hover {
+	background-color:#5cbf2a;
+}
+.myButton2:active {
+	position:relative;
+	top:1px;
+}
 
+.myButton3 {
+	background-color:#44c767;
+	border-radius:14px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding: 10px ;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+    border-spacing: 5px;
+    margin-top: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
-tr.tagfortex{
-    font-family: 'Averia Libre', cursive;
-    background: rgba(178, 33, 245, 0.637);
-    text-align: center;
+.myButton3:hover {
+	background-color:#5cbf2a;
+}
+.myButton3:active {
+	position:relative;
+	top:1px;
+}
 
+.myButton4 {
+	background-color:#44c767;
+	border-radius:14px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding: 10px ;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+    border-spacing: 5px;
+    margin-top: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.myButton4:hover {
+	background-color:#5cbf2a;
+}
+.myButton4:active {
+	position:relative;
+	top:1px;
 }
 
-tr.tagfortex2{
-    font-family: 'Averia Libre', cursive;
-    background: rgba(218, 240, 19, 0.637);
-    text-align: center;
-   
+.myButton5 {
+	background-color:#44c767;
+	border-radius:14px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding: 10px ;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+    border-spacing: 5px;
+    margin-top: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
-tr.tagfortex3{
-    font-family: 'Averia Libre', cursive;
-    background: rgba(114, 5, 78, 0.637);
-    text-align: center;
-   
+.myButton5:hover {
+	background-color:#5cbf2a;
 }
-tr.tagfortex4{
-    font-family: 'Averia Libre', cursive;
-    background: rgba(35, 170, 233, 0.637);
-    text-align: center;
-   
+.myButton5:active {
+	position:relative;
+	top:1px;
 }
-tr.tagfortex5{
-    font-family: 'Averia Libre', cursive;
-    background: rgba(17, 65, 17, 0.637);
-    text-align: center;
-   
+
+.myButton6 {
+	background-color:#44c767;
+	border-radius:14px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding: 10px ;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+    border-spacing: 5px;
+    margin-top: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
-tr.tagfortex6{
-    font-family: 'Averia Libre', cursive;
-    background: rgba(235, 5, 5, 0.637);
-    text-align: center;
-   }
+.myButton6:hover {
+	background-color:#5cbf2a;
+}
+.myButton6:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton7 {
+	background-color:#44c767;
+	border-radius:14px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding: 10px ;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+    border-spacing: 5px;
+    margin-top: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.myButton7:hover {
+	background-color:#5cbf2a;
+}
+.myButton7:active {
+	position:relative;
+	top:1px;
+}
+
 
 h2{
     font-family: 'Amiko', sans-serif; 
