@@ -2,7 +2,11 @@ body{
        background-image: url(/_imagens/texturablue.jpg);
         
 }
-
+h1#alert{
+    text-align: center;
+    font-style: italic;
+    color: red;
+}
     
 header{
     font-family: 'Averia Libre', cursive;
