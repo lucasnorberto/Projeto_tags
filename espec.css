@@ -1,3 +1,10 @@
+body{
+    background-color: rgba(17, 17, 16, 0.658);
+}
+
+section{
+    font-family: 'Lexend Mega', sans-serif;
+}
 iframe{
     width: 600px;
     height: 80px;
