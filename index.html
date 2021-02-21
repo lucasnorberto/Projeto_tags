@@ -34,22 +34,24 @@
 
 
 
-        <button onclick="controlaDialog()" class="myButton" id="btn_dialog">&lt;!--...--&gt;</button>
+       
         
         <dialog id="d1">
             <div class="dialog-titulo">
-                <h3>Caixa de Dialogo</h3>
+                <h3 id="titulo"></h3>
             </div>
             <div class="dialog-corpo">
-                <P>Caixa de dialogo nativa do HTML5</P>
-                <p>CFB Cursos / Curso de HTML Completo e Profissional</p>
+                <P id="msg1"></P>
+                
             </div>
             <div class="dialog-rodape">
                 <button id="btn-fechar" onclick="fecharDialog()">Fechar</button>
             </div>
 
         </dialog>
-               
+
+        <button onclick="controlaDialog('Curso de HTML','Curso de HTML Completo e Profissional do Canal CFB Cursos')" class="myButton" id="btn_dialog">&lt;!--...--&gt;</button>
+        <button onclick="controlaDialog('Curso de HTML 2','Lucas Norberto')" class="myButton" id="btn_dialog">&lt;!--...-- 2&gt;</button>
         <button onclick="controlaDialog()" class="myButton" id="btn_dialog">&lt;!DOCTYPE&gt;</button>
         <button onclick="controlaDialog()" class="myButton" id="btn_dialog">&lt;html&gt;</button>
         <button onclick="controlaDialog()" class="myButton" id="btn_dialog">&lt;head&gt;</button>
