@@ -220,11 +220,15 @@ header{
 	position:relative;
 	top:1px;
 }
+p.dialog{
+	color: #000000;
+}
 
 dialog{
-	padding: 0;
+	padding: 0; 
 	border: 0;
-	border-radius: 7px;
+	border-top: 30px;
+	border-radius: 7px 7px 10px 10px;
 	box-shadow: 0 0 10px black;
 	flex-direction: column;
 
@@ -232,8 +236,8 @@ dialog{
 
 .dialog-titulo{
 	background-color: #eee;
-	border-bottom-left-radius: inherit;
-	border-bottom-right-radius: inherit;
+	border-bottom: 0px;
+	border-radius: 10px 10px 0px 0px;
 	padding: 7px;
 	display: flex;
 	align-items: center;
@@ -248,9 +252,8 @@ dialog{
 }
 
 .dialog-rodape{
-	background-color: #fff;
-	border-bottom-left-radius: inherit;
-	border-bottom-right-radius: inherit;
+	background: rgba(226, 223, 223, 0.897);
+	border-radius: 0px 0px 10px 10px;
 	padding: 7px;
 	border-top: 1px solid #aaa;
 }
@@ -261,10 +264,11 @@ dialog{
 	padding: 7px;
 	cursor: pointer;
 	outline: none;
-}
+	}
 
 #btn-fechar:hover{
-	background-color: #eee;
+	background-color: rgb(197, 188, 188);
+	position: center;
 }
 
 
