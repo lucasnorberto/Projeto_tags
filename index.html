@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tag's em usadas em HTML 5</title>
     <link rel="stylesheet" href="estilo.css">
-    <link rel="stylesheet" href="espec.css">
     <link rel="shortcut icon" href="tagss.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Averia+Libre:wght@300&display=swap" rel="stylesheet">
@@ -13,8 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Amiko&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    
-</head>
+
+    </head>
+    <script src="script.js"></script>
 <body>
     <header>
         <h1> Tag's Utilizadas em HTML 5</h1>
@@ -25,43 +25,27 @@
             <p> O HTML5 e uma Linguagem de marcação e ao ser atualizada recebeu novos comandos, e descontinua outros comandos, 
             vamos ver, as tags que permanecem em uso no HTML5 e tags que foram descontinuadas mas que em breve não irão funcionar.</p>
     
-    <p>
-Convallis rutrum ornare nisi aenean himenaeos pharetra luctus iaculis, velit pretium vehicula aenean eleifend facilisis eu, vivamus volutpat metus faucibus ac praesent vestibulum. 
-quam integer morbi aliquam sit id libero posuere gravida hac cursus felis mattis velit, etiam tortor quam litora sagittis quam at tellus quis ullamcorper eget. 
-semper sit nunc aliquam curae commodo at himenaeos vestibulum, platea laoreet ipsum semper nisl curabitur turpis tempor nisl, at aenean proin tristique ullamcorper at ornare. 
-a quam placerat ullamcorper congue posuere iaculis nulla purus vivamus, himenaeos sem habitasse semper cras ipsum at accumsan sociosqu nec, quisque bibendum venenatis orci curabitur enim hendrerit donec. 
-</p>
-<p>
-Litora semper maecenas nisl congue etiam tincidunt nisi pulvinar vivamus nostra ornare, quis malesuada quisque dictum aptent erat felis auctor porta ipsum per, sagittis ultricies lorem enim semper tristique tortor donec aliquet sagittis. 
-lectus pulvinar augue gravida taciti quis tincidunt, rutrum tempor luctus phasellus cursus pulvinar, quisque rhoncus egestas cubilia donec. 
-ornare placerat senectus litora torquent at praesent habitant aenean in tempus, sagittis proin porta netus varius placerat torquent sodales risus egestas, justo interdum donec libero nunc sociosqu ad neque eleifend. 
-gravida massa pharetra euismod morbi ipsum quam ad mauris, sed etiam fusce tempus cubilia etiam elementum, lacinia nunc purus adipiscing suscipit lacinia blandit. 
-</p>
-<p>
-Cursus nullam molestie aliquet rhoncus magna vestibulum sed et, lorem blandit tellus luctus integer porta ornare, morbi congue nullam ante donec consectetur at. 
-risus tempor odio velit mollis quam luctus dui per, morbi lobortis class facilisis dolor eget fusce nam ad, in potenti placerat porttitor accumsan lectus pharetra. 
-auctor ut accumsan ligula etiam nisl metus, rutrum cubilia at pretium id ultrices vitae, euismod aptent tortor donec massa. 
-fusce ut feugiat nullam odio hac habitasse hendrerit pulvinar, eget praesent non quisque congue dictumst amet, duis felis etiam proin cras vestibulum mattis. 
-</p>
-<p>
-Sollicitudin eros etiam consequat ut class porttitor malesuada metus ac, ante aptent tristique per id mollis praesent ad. 
-etiam nam urna dictumst sociosqu adipiscing quis sociosqu per ipsum, diam mattis mollis rutrum eget pretium dapibus proin congue dolor, eu integer dictumst inceptos vitae venenatis odio commodo. 
-luctus aenean neque pellentesque nisl, viverra quis condimentum hendrerit tristique, lacus ornare lacus. 
-sollicitudin dictum neque lectus integer volutpat potenti neque sit senectus, aptent quisque lectus orci lacus mollis aenean fusce, urna ac lorem donec convallis libero senectus inceptos. 
-mi ante dictum nunc convallis aliquam dictumst platea laoreet nec orci gravida id eget senectus scelerisque, ante metus aenean gravida in rhoncus massa mauris integer ac lobortis curae sem. 
-</p>
-<p>
-Hendrerit libero primis litora mi aenean sed aenean mauris condimentum curae semper, facilisis arcu volutpat mi venenatis sed molestie dui himenaeos morbi orci phasellus, elit orci enim fringilla potenti nec platea suscipit platea tortor. 
-nam conubia consectetur tristique quam lorem justo platea at conubia, gravida fusce donec egestas massa litora sem vestibulum enim sit, urna aenean vivamus ultrices suspendisse ultrices a molestie. 
-curabitur sed aenean lorem auctor lacus integer semper commodo semper per, malesuada ligula sapien dui vehicula vel integer bibendum ad. 
-per ipsum tellus ullamcorper arcu tempor, rutrum per tempus. 
-</p>    </section>
+   </p>    </section>
 
         <h1 id="alert">PAGINA EM CONSTRUÇÃO</h1>
+               
+        <button onclick="controlaDialog()" class="myButton" id="btn_dialog">&lt;!--...--&gt;</button>
+            <dialog id="tagcoment">
+                <div class="dtitulo">
+                    <h3>&lt;!--...--&gt;</h3>
+                </div>
+                
+                <div class="dcorpo">
+                    <p>Define um comentário</p>
+                </div>
 
-        <iframe src="espec.html"></iframe>
-        
-        <a href="#" class="myButton">&lt;!--...--&gt;</a>
+                <div class="drodape">
+                    <button id="btn-fechar" onclick="fechardialog()" >Fechar</button>
+                </div>
+
+            </dialog>
+
+
         <a href="#" class="myButton">&lt;!DOCTYPE&gt;</a>
         <a href="#" class="myButton">&lt;html&gt;</a>
         <a href="#" class="myButton">&lt;head&gt;</a>
