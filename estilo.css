@@ -12,6 +12,12 @@ h2{
     color: white;
 }
 
+a#pop{
+	font-family: 'Amiko', sans-serif; 
+    padding: 5px;
+    margin: 2px;
+    color: white;
+}
 p{
     font-family: 'Amiko', sans-serif; 
     padding: 1px;
