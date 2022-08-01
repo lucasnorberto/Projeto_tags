@@ -1,188 +1,45 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tag's em usadas em HTML 5</title>
-    <link rel="stylesheet" href="estilo.css">
-    <link rel="shortcut icon" href="tagss.png" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Averia+Libre:wght@300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Amiko&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-
-    </head>
-    <script src="script.js"></script>
-
-<body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tag's Utilizadas em HTML 5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  </head>
+  <body>
     <header>
-        <h1> Tag's Utilizadas em HTML 5</h1>
-       
+        <h1 class="text-center">Tag's Utilizadas em HTML 5</h1>
+            <h2 class="text-center">Site Guia e auxilio para aprendete sobre tag's utilizadas em HTML 5.</h2>
     </header>
 
- 
-        <section>
-            <h2> Vamos entender os comandos e tags em HTML5.</h2>
-            <p> O HTML5 e uma Linguagem de marcação e ao ser atualizada recebeu novos comandos, e descontinua outros comandos, 
-            vamos ver, as tags que permanecem em uso no HTML5 e tags que foram descontinuadas mas que em breve não irão funcionar.</p>
-    
-   </p>    </section>
+<div>
+    <div class="container text-center">
+        <div class="row rounded-2 border border-3 border-secondary p-2 mb-2 border-opacity-25">
+            
+            <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+                Tooltip on top
+            </button>
+            
+            <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+                Tooltip on top
+            </button>
 
-        <h1 id="alert">PAGINA EM CONSTRUÇÃO</h1>
 
 
 
-       
-        
-        <dialog id="d1">
-            <div class="dialog-titulo">
-                <h3 id="titulo"></h3>
-            </div>
-            <div class="dialog-corpo">
-                <P class="dialog" id="msg1"></P>
-                
-            </div>
-            <div class="dialog-rodape">
-                <button id="btn-fechar" onclick="fecharDialog()">Fechar</button>
-            </div>
 
-        </dialog>
 
-        <button onclick="controlaDialog('Tag de Comentário','Define um comentário dentro do HTML')" class="myButton" id="btn_dialog">&lt;!--...--&gt;</button>
-        <button onclick="controlaDialog('Define o tipo de documento','No HTML 4 existiam três (3) diferentes tipos de doctype, mas no HTML 5 temos apenas um (1) tipo <!DOCTYPE HTML>. É aqui que o navegador entende o tipo de documento e como ele deve interpretar as tags nele contidas.')" class="myButton" id="btn_dialog">&lt;!DOCTYPE&gt;</button>
-        <button onclick="controlaDialog('Tag Raiz','O elemento de nível superior (raiz) de um documento HTML.')" class="myButton" id="btn_dialog">&lt;html&gt;</button>
-        <button onclick="controlaDialog('Tag cabeçalho','Define o cabeçalho de uma página')" class="myButton" id="btn_dialog">&lt;head&gt;</button>
-        <button onclick="controlaDialog('Define um endereço. (Passa a ser tratado como uma seção)','pode ser usado em uma variedade de contextos, como fornecer informação de contato de uma empresa no header da página, ou indicar o autor de um artigo incluindo um elemento <address> dentro do <article> . Categoria de conteúdo Conteúdo de fluxo, conteúdo palpável.')" class="myButton" id="btn_dialog">&lt;address&gt;</button>
-        <button onclick="controlaDialog('Tag Título','Define o título do documento')" class="myButton" id="btn_dialog">&lt;title&gt;</button>
-        <button onclick="controlaDialog('Define uma base URL para todos os links da página','O elemento HTML Base (< base >) especifica o endereço (URL) utilizada por todos os endereços relativos contidos dentro de um documento. Há um número máximo de 1 (um) elemento Base <base> do documento.')" class="myButton" id="btn_dialog">&lt;base&gt;</button>
-        <button onclick="controlaDialog('Define uma referência','O Elemento HTML < link > especifica as relações entre o documento atual e um recurso externo. Possíveis usos para este elemento incluem a definição de uma estrutura relacional para navegação. Este elemento é mais usado para vincular as folhas de estilo.')" class="myButton" id="btn_dialog">&lt;link&gt;</button>
-        <button onclick="controlaDialog('Define informações meta','As Meta Tags auxiliam os mecanismos de busca (search engines) a encontrarem o seu site na web, isso porque são elas que dão um pequeno resumo sobre o que será encontrado na sua página, sendo assim uma forma de indexar o conteúdo web disponível, mas essas tags não se resumem apenas a melhoria para mecanismos de busca, veremos que existem Meta Tags com funções mais complexas e com funções que podem ajudar muito em momentos oportunos As meta tags devem estar entre as tags &lt; head &gt;&lt; /head &gt;, mesmo local onde fica a tag &lt; title &gt;&lt; /title &gt;.')" class="myButton" id="btn_dialog">&lt;meta&gt;</button>
-        <button onclick="controlaDialog('Define um estilo','A tag style  é usada para definir informações de estilo (CSS) para um documento. Dentro do style elemento, você especifica como os elementos HTML devem ser renderizados em um navegador.')" class="myButton" id="btn_dialog">&lt;style&gt;</button>
-        <button onclick="controlaDialog('Define um script','O elemento HTML &lt;script&gt; é usado para incluir ou referenciar um script executável. ')" class="myButton" id="btn_dialog">&lt;script&gt;</button>
-        <button onclick="controlaDialog('noscript','Define uma seção noscript')" class="myButton" id="btn_dialog">&lt;noscript&gt;</button>
-        <button onclick="controlaDialog('template','O  elemento HTML &lt; template &gt;  é um mecanismo para encapsular um conteúdo do lado do cliente que não é renderizado quando a página é carregada, mas que pode ser instanciado posteriormente em tempo de execução usando JavaScript. Pense no template como um fragmento de conteúdo, que é armazenado para um possível uso futuro no documento. Enquanto o parser processa o conteúdo do elemento &lt; template &gt;  ao carregar a página, isso apenas garante que o conteúdo é válido; porém, o conteúdo do elemento ainda não foi renderizado.')" class="myButton" id="btn_dialog">&lt;template&gt;</button>
-        <button onclick="controlaDialog('slot','')" class="myButton" id="btn_dialog">&lt;slot&gt;</button>
+        </div>
+      </div>
+</div>
 
-        <button onclick="controlaDialog('','')" class="myButton1" id="btn_dialog">&lt;body&gt;</button>
-        <button onclick="controlaDialog('Especifique o conteúdo principal do documento','A tag main especifica o conteúdo principal de um documento. O conteúdo dentro do <main>elemento deve ser exclusivo para o documento. Não deve conter nenhum conteúdo que se repita em documentos, como barras laterais, links de navegação, informações de direitos autorais, logotipos de sites e formulários de pesquisa. Nota: Não deve haver mais de um main elemento em um documento. O main elemento NÃO deve ser descendente de um elemento article, aside, footer, header ou nav.')" class="myButton1" id="btn_dialog">&lt;main&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton1" id="btn_dialog">&lt;section&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton1" id="btn_dialog">&lt;nav&gt;</button>
-        <button onclick="controlaDialog('Tag Layout','Define um artigo')" class="myButton1" id="btn_dialog">&lt;article&gt;</button>
-        <button onclick="controlaDialog('Tag Layout','Define o conteúdo além do conteúdo da página')" class="myButton1" id="btn_dialog">&lt;aside&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton1" id="btn_dialog">&lt;header&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton1" id="btn_dialog">&lt;footer&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton1" id="btn_dialog">&lt;h1&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton1" id="btn_dialog">&lt;h2&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton1" id="btn_dialog">&lt;h3&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton1" id="btn_dialog">&lt;h4&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton1" id="btn_dialog">&lt;h5&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton1" id="btn_dialog">&lt;h6&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton1" id="btn_dialog">&lt;address&gt;</button>
 
-        <button onclick="controlaDialog('','')" class="myButton2" id="btn_dialog">&lt;p&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton2" id="btn_dialog">&lt;hr&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton2" id="btn_dialog">&lt;br&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton2" id="btn_dialog">&lt;pre&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton2" id="btn_dialog">&lt;blockquote&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton2" id="btn_dialog">&lt;ol&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton2" id="btn_dialog">&lt;ul&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton2" id="btn_dialog">&lt;li&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton2" id="btn_dialog">&lt;dl&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton2" id="btn_dialog">&lt;dt&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton2" id="btn_dialog">&lt;dd&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton2" id="btn_dialog">&lt;figure&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton2" id="btn_dialog">&lt;figcaption&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton2" id="btn_dialog">&lt;div&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton2" id="btn_dialog">&lt;dialog&gt;</button>
 
-        <button onclick="controlaDialog('','')" class="myButton3" id="btn_dialog">&lt;a&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton3" id="btn_dialog">&lt;em&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton3" id="btn_dialog">&lt;strong&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton3" id="btn_dialog">&lt;small&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton3" id="btn_dialog">&lt;cite&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton3" id="btn_dialog">&lt;s&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton3" id="btn_dialog">&lt;q&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton3" id="btn_dialog">&lt;dfn&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton3" id="btn_dialog">&lt;abbr&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton3" id="btn_dialog">&lt;data&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton3" id="btn_dialog">&lt;time&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton3" id="btn_dialog">&lt;code&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton3" id="btn_dialog">&lt;var&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton3" id="btn_dialog">&lt;samp&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton3" id="btn_dialog">&lt;kdb&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton3" id="btn_dialog">&lt;sub&gt;</button>
-        
-        <button onclick="controlaDialog('','')" class="myButton4" id="btn_dialog">&lt;sup&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton4" id="btn_dialog">&lt;i&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton4" id="btn_dialog">&lt;b&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton4" id="btn_dialog">&lt;mark&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton4" id="btn_dialog">&lt;ruby&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton4" id="btn_dialog">&lt;rb&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton4" id="btn_dialog">&lt;rt&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton4" id="btn_dialog">&lt;rtc&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton4" id="btn_dialog">&lt;rp&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton4" id="btn_dialog">&lt;bdo&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton4" id="btn_dialog">&lt;bdi&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton4" id="btn_dialog">&lt;span&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton4" id="btn_dialog">&lt;u&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton4" id="btn_dialog">&lt;ins&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton4" id="btn_dialog">&lt;del&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton4" id="btn_dialog">&lt;wbr&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton4" id="btn_dialog">&lt;img&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton4" id="btn_dialog">&lt;picture&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton4" id="btn_dialog">&lt;iframe&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton4" id="btn_dialog">&lt;embed&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton4" id="btn_dialog">&lt;object&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton4" id="btn_dialog">&lt;param&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton4" id="btn_dialog">&lt;video&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton4" id="btn_dialog">&lt;audio&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton4" id="btn_dialog">&lt;source&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton4" id="btn_dialog">&lt;canvas&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton4" id="btn_dialog">&lt;map&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton4" id="btn_dialog">&lt;area&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton4" id="btn_dialog">&lt;track&gt;</button>
 
-        <button onclick="controlaDialog('','')" class="myButton5" id="btn_dialog">&lt;table&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton5" id="btn_dialog">&lt;caption&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton5" id="btn_dialog">&lt;colgroup&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton5" id="btn_dialog">&lt;col&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton5" id="btn_dialog">&lt;tbody&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton5" id="btn_dialog">&lt;thead&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton5" id="btn_dialog">&lt;tfoot&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton5" id="btn_dialog">&lt;tr&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton5" id="btn_dialog">&lt;td&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton5" id="btn_dialog">&lt;th&gt;</button>
+    <footer>
+        <p class="text-center">Trabalho de adaptação e tradução do site: https://allthetags.com/ </p>
+    </footer>
 
-        <button onclick="controlaDialog('','')" class="myButton6" id="btn_dialog">&lt;form&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton6" id="btn_dialog">&lt;fieldset&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton6" id="btn_dialog">&lt;legend&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton6" id="btn_dialog">&lt;label&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton6" id="btn_dialog">&lt;input&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton6" id="btn_dialog">&lt;button&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton6" id="btn_dialog">&lt;select&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton6" id="btn_dialog">&lt;datalist&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton6" id="btn_dialog">&lt;optgroup&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton6" id="btn_dialog">&lt;option&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton6" id="btn_dialog">&lt;textarea&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton6" id="btn_dialog">&lt;output&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton6" id="btn_dialog">&lt;progress&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton6" id="btn_dialog">&lt;meter&gt;</button>
-
-        <button onclick="controlaDialog('','')" class="myButton7" id="btn_dialog">&lt;details&gt;</button>
-        <button onclick="controlaDialog('','')" class="myButton7" id="btn_dialog">&lt;summary&gt;</button>
-        
-        <section>
-           
-        </section>
-
-       
-<footer>
-    <p> &copy;Projeto Tags Lucas Norberto</p>
-</footer>
-
-<script src="script.js"></script>
-
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
 </html>
